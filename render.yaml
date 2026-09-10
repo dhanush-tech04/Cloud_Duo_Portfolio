@@ -1,6 +1,0 @@
-services:
-  - type: web
-    runtime: static
-    name: cloud-duo-portfolio
-    buildCommand: npm install && npm run build
-    staticPublishPath: ./dist
